@@ -1,0 +1,28 @@
+Password Complexity Checker
+This is a Python script that checks the strength of a password based on five predefined criteria. The script evaluates whether the password meets the required conditions and provides feedback on how many criteria the password satisfies. It ensures that the password is secure and helps users understand which aspects of their password need improvement.
+
+Features
+Criteria Check: The script evaluates passwords based on 5 criteria:
+
+Length (at least 8 characters)
+Uppercase letter
+Lowercase letter
+Number
+Special character (e.g., !@#$%^&*)
+Feedback: The script provides immediate feedback on each criterion and shows how many criteria the password meets.
+
+Password Acceptance: A password is accepted if it meets at least 3 out of the 5 criteria.
+
+How It Works
+Password Input:
+
+The user is prompted to input a password.
+Password Evaluation:
+
+The script checks the password against the 5 criteria mentioned above.
+It calculates the number of criteria met by the password.
+Feedback:
+
+The script displays a breakdown of which criteria were met.
+If the password meets at least 3 out of 5 criteria, the password is accepted.
+If the password does not meet the required criteria, the user is prompted to try again.
